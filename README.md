@@ -11,6 +11,8 @@ Dengan menggunakan aplikasi yang sudah disediakan di github page [NimF](https://
 ### Kelas-Kelas
 1. Kelas App: Kelas utama yang menampilkan halaman utama.
 2. Kelas SearchBar: Kelas untuk komponen pencarian. Berupa <i>textbar</i> dan tombol <i>submit</i>.
+3. Kelas Results: Kelas untuk keseluruhan hasil pencarian.
+4. Kelas Result: Kelas untuk menampilkan masing-masing data hasil pencarian.
 
 ### Cara Aplikasi Bekerja
 1. Aplikasi akan melakukan <i>login</i> pada saat di-<i>load</i>.
