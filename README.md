@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>NimF</h1>
+<h5>Vincent Chuardi (13517103)</h5>
 
-## Available Scripts
+### Cara Menjalankan Aplikasi
+Dengan menggunakan aplikasi yang sudah disediakan di github page [NimF](https://vchuardi.github.io/nimfinder) atau dengan npm start pada folder yang tepat
 
-In the project directory, you can run:
+### Cara menggunakan aplikasi
+1. Pengguna memasukan input berupa nama atau NIM mahasiswa pada <i>textbar</i> yang disediakan.
+2. Pengguna klik <i>submit</i> atau <i>enter</i>
 
-### `npm start`
+### Kelas-Kelas
+1. Kelas App: Kelas utama yang menampilkan halaman utama.
+2. Kelas SearchBar: Kelas untuk komponen pencarian. Berupa <i>textbar</i> dan tombol <i>submit</i>.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Cara Aplikasi Bekerja
+1. Aplikasi akan melakukan <i>login</i> pada saat di-<i>load</i>.
+2. Aplikasi membaca input yang diberikan pengguna. Input bisa merupakan NIM atau nama dari mahasiswa yang ingin dicari.
+3. Aplikasi melakukan request GET kepada API sesuai input yang diberikan pengguna.
+3. Aplikasi menampilkan hasil pencarian yang diberikan oleh API.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Library yang digunakan
+1. [Axios](https://www.npmjs.com/package/axios)
+2. [QueryString](https://www.npmjs.com/package/query-string)
