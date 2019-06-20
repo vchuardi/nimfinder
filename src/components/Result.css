@@ -1,0 +1,13 @@
+.tabel {
+    align-self: center;
+    width: 1250px;
+    height: 26px;
+}
+
+.column {
+    min-width: 300px;
+    max-width: 300px;
+    display: inline-table;
+    border: 3px solid gray;
+    font-size: 70%;
+}
